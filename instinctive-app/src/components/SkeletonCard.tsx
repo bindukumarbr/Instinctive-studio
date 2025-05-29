@@ -42,7 +42,7 @@ export default function SkeletonCard() {
         <div
           className="
                         h-4 bg-gray-200 rounded w-5/6 mb-3
-                        hidden md:block lg:hidden
+                        hidden md:block
                         lg:block
                     "
         ></div>
