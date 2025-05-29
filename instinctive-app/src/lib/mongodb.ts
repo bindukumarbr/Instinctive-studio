@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
+import dotenv from "dotenv";
+dotenv.config();
 
-const MONGODB_URI =
-  process.env.MONGODB_URI ||
-  "mongodb+srv://devuser:czhhfbnikpKfyKMF@instinctive-studio.pthg1mr.mongodb.net/?retryWrites=true&w=majority&appName=instinctive-studio";
+const MONGODB_URI = process.env.MONGODB_URI;
 
 if (!MONGODB_URI) {
   throw new Error(

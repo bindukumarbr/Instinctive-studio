@@ -5,7 +5,10 @@ import dotenv from 'dotenv';
 import Category, { ICategory } from '../src/models/Category';
 import Listing, { IListing } from '../src/models/Listing';
 
-dotenv.config();
+
+dotenv.config({path: "../env"});
+
+
 
 const seedData = async () => {
     await dbConnect();
