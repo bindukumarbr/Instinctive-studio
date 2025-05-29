@@ -85,7 +85,7 @@ NEXT_PUBLIC_API_BASE_URL=http://localhost:3000
 
 1.  **Clone the repository:**
     ```bash
-    git clone "https://github.com/bindukumarbr/Instinctive-studio.git"
+    git clone https://github.com/bindukumarbr/Instinctive-studio.git
     cd instinctive-app
     ```
 2.  **Install dependencies:**
